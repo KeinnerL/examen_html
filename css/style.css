@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   min-height: 100vh;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -16,9 +16,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #333;
+  background-color: #1e1d2b;
   color: white;
   position: relative;
+}
+.logo{
+    color: #ff702a;
 }
 
 /* responsive */
@@ -60,14 +63,11 @@ li.nav-link {
 }
 
 li.nav-link:hover {
-  background-color: #ccc;
+  background-color:#ff702a;
   color: #333;
 }
 
-li.nav-link.auth {
-  border: 2px solid white;
-  border-radius: 1rem;
-}
+
 
 li.nav-link a {
   text-decoration: none;
@@ -85,4 +85,72 @@ li.nav-link a {
   nav .nav-links {
     display: none;
   }
-} 
+}
+.contenedor-principal{
+    width: 100vw;
+    height: 100vh;
+    background-color:#1e1d2b;
+    display: flex;
+    flex-direction: row;
+}
+.contenido{
+    width: 50%;
+    height: 100%;
+    align-content: center;
+}
+image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.imgg{
+    width: 70%;
+    height: 70%;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+.boton{
+    width: 28%;
+    position: relative;
+    left: 15%;
+    text-align: center;
+    border: #ff702a solid 0.001rem;
+    background-color: #ff702a;
+    padding: 1%;
+    a{text-decoration: none;
+    color: white;}
+    
+}
+.titulo-index{color:#ff702a ;
+    font-size: 7rem;
+    position: relative;
+    left: 15%;
+}
+.p-index{color: white;
+    text-align: left;
+    position: relative;
+    font-size: 2rem;
+    left: 15%;
+}
+.about{color:#ff702a;
+    text-align: left;
+    position: relative;
+    font-size: 1rem;
+    left: 15%;
+}
+.titulo-about{color:white ;
+    font-size: 4rem;
+    position: relative;
+    left: 15%;
+}
+.p-about{color: white;
+    text-align: left;
+    position: relative;
+    font-size: 1.7rem;
+    left: 15%;
+}
